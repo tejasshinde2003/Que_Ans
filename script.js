@@ -1,5 +1,6 @@
+ 
 
-fetch("quiz-data.json")
+  fetch("quiz-data.json")
   .then((response) => response.json())
   .then((data) => {
     let currentQuestion = 0;
